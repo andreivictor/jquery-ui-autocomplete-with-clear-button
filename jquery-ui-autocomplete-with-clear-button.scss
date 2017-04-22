@@ -1,0 +1,17 @@
+$ui-autocomplete-clear-size:  16px;
+
+.ui-autocomplete-input-has-clear {
+  padding-right: $ui-autocomplete-clear-size * 1.5;
+}
+
+.ui-autocomplete-input-has-clear::-ms-clear {
+   display: none;
+}
+
+.ui-autocomplete-clear {
+  display: inline-block;
+  width: $ui-autocomplete-clear-size;
+  height: $ui-autocomplete-clear-size;
+  text-align: center;
+  cursor: pointer;
+}
